@@ -18,8 +18,8 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="sticky-top opacity-75">
+      <div class="container shadow header-back">
         <div class="row">
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
@@ -49,9 +49,11 @@
                   </li>
                 </ul>
               </div>
-              <div class="navbar-brand text-center lh-1">
+              <div class="navbar-brand lh-1">
                 <p class="text-uppercase fs-1">перезагрузка</p>
-                <p class="text-uppercase fs-4 fst-italic">встреча с собой</p>
+                <p class="text-uppercase fs-4 m-0 fst-italic">
+                  встреча с собой
+                </p>
               </div>
             </div>
           </nav>
@@ -60,7 +62,7 @@
     </header>
     <!-- Title -->
     <section class="title py-3 text-white">
-      <div class="container">
+      <div class="container shadow-lg py-3">
         <div class="row">
           <div
             class="col-sm-2 d-flex justify-content-center align-items-center"
@@ -86,7 +88,7 @@
           >
             <img
               class="main-foto img-fluid"
-              src="./img/photo_2021-11-16_10-49-10.jpg"
+              src="./img/autor_photo.png"
               alt=""
             />
           </div>
@@ -101,17 +103,13 @@
               soluta blanditiis voluptatum adipisci? Provident?
             </p>
             <div class="row px-5">
-              <a
-                href="#footer"
-                type="button"
-                class="btn btn-warning my-3 shadow-lg"
-              >
+              <a href="#footer" type="button" class="btn btn-warning my-3">
                 Принять участие
               </a>
-              <div class="d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row justify-content-evenly">
                 <span
                   class="
-                    border border-primary
+                    border border-warning border-2
                     rounded
                     bg-success
                     w-50
@@ -123,11 +121,11 @@
                 >
                 <span
                   class="
-                    border border-primary
+                    border border-warning border-2
                     rounded
                     bg-success
                     w-50
-                    p-3
+                    p-2
                     title_info
                     text-center
                   "
@@ -140,8 +138,8 @@
       </div>
     </section>
     <!-- For whom -->
-    <section class="whome">
-      <div class="container">
+    <section class="whome py-3">
+      <div class="container shadow-lg py-3">
         <div class="row">
           <div class="col-12">
             <h2 class="text-center text-uppercase m-3">Для кого это все?</h2>
@@ -191,30 +189,31 @@
       </div>
     </section>
     <!-- Difficulties -->
-    <section class="difficulties text-white">
-      <div class="container">
+    <section class="difficulties py-3 text-white">
+      <div class="container shadow py-3">
         <div class="row">
           <div class="col-12">
             <h2 class="text-center text-uppercase p-3">Какие трудности</h2>
           </div>
         </div>
-        <div class="row">
-          <ul>
-            <li>
+        <div class="row m-2 fs-5">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white bg-transparent">
+              <img src="./img/lemon.png" alt="" />
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic
               dicta esse quidem quas mollitia numquam tempora praesentium
               minima! Aut, ut cum porro alias sit totam eos libero. Obcaecati,
               iste.
             </li>
-            <div class="line"></div>
-            <li>
+            <li class="list-group-item text-white bg-transparent">
+              <img src="./img/lemon.png" alt="" />
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic
               dicta esse quidem quas mollitia numquam tempora praesentium
               minima! Aut, ut cum porro alias sit totam eos libero. Obcaecati,
               iste.
             </li>
-            <div class="line"></div>
-            <li>
+            <li class="list-group-item text-white bg-transparent">
+              <img src="./img/lemon.png" alt="" />
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic
               dicta esse quidem quas mollitia numquam tempora praesentium
               minima! Aut, ut cum porro alias sit totam eos libero. Obcaecati,
@@ -225,30 +224,31 @@
       </div>
     </section>
     <!-- Problems -->
-    <section class="problems">
-      <div class="container">
+    <section class="problems py-3">
+      <div class="container shadow py-3">
         <div class="row">
           <h2 class="text-center text-uppercase py-3">
             к каким проблемам это приводит
           </h2>
         </div>
-        <div class="row">
-          <ul>
-            <li>
+        <div class="row m-2 fs-5">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-transparent">
+              <img src="./img/pepper.png" alt="" />
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic
               dicta esse quidem quas mollitia numquam tempora praesentium
               minima! Aut, ut cum porro alias sit totam eos libero. Obcaecati,
               iste.
             </li>
-            <div class="line"></div>
-            <li>
+            <li class="list-group-item bg-transparent">
+              <img src="./img/pepper.png" alt="" />
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic
               dicta esse quidem quas mollitia numquam tempora praesentium
               minima! Aut, ut cum porro alias sit totam eos libero. Obcaecati,
               iste.
             </li>
-            <div class="line"></div>
-            <li>
+            <li class="list-group-item bg-transparent">
+              <img src="./img/pepper.png" alt="" />
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic
               dicta esse quidem quas mollitia numquam tempora praesentium
               minima! Aut, ut cum porro alias sit totam eos libero. Obcaecati,
@@ -259,8 +259,8 @@
       </div>
     </section>
     <!-- Program -->
-    <section class="program text-white py-3">
-      <div class="container">
+    <section class="program py-3 text-white py-3">
+      <div class="container shadow py-3">
         <div class="row">
           <h2 class="text-center text-uppercase py-3">
             Как выглядит программа курса
@@ -282,7 +282,7 @@
             Модуль 1
           </h2>
         </div>
-        <div class="row">
+        <div class="row m-2 fs-5">
           <div class="border border-0 rounded bg-warning py-2">
             <ul>
               <li>
@@ -319,7 +319,7 @@
             </p>
           </div>
         </div>
-        <div class="d-flex justify-content-center lign-items-center">
+        <div class="d-flex justify-content-center align-items-center">
           <div class="arrow-down mt-2"></div>
         </div>
         <div class="row">
@@ -341,7 +341,7 @@
             Модуль 2
           </h2>
         </div>
-        <div class="row">
+        <div class="row m-2 fs-5">
           <div class="border border-0 rounded bg-success py-2">
             <ul>
               <li>
@@ -378,7 +378,7 @@
             </p>
           </div>
         </div>
-        <div class="d-flex justify-content-center lign-items-center">
+        <div class="d-flex justify-content-center align-items-center">
           <div class="arrow-down_green mt-2"></div>
         </div>
         <div class="row">
@@ -387,8 +387,8 @@
       </div>
     </section>
 
-    <footer class="py-5 bg-info" id="footer">
-      <div class="container">
+    <footer id="footer">
+      <div class="container py-4">
         <div class="row">
           <div class="col-12 align-items-center justify-content-center d-flex">
             <a
